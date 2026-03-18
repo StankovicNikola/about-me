@@ -1,14 +1,91 @@
 {
 	"projects": [
 		{
+			"id": 1,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for TunnelBear, a VPN desktop and mobile application, covering functional, regression, and platform-specific testing.",
+			"location": "Remote",
+			"company": {
+				"name": "TunnelBear",
+				"description": "A consumer VPN service offering secure, private internet access via desktop and mobile applications."
+			}
+		},
+		{
+			"id": 2,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for RememBear, a password management desktop and mobile application, ensuring reliability and security across platforms.",
+			"location": "Remote",
+			"company": {
+				"name": "RememBear",
+				"description": "A password manager application providing secure credential storage across desktop and mobile platforms."
+			}
+		},
+		{
+			"id": 3,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for Hubba, a wholesale B2B e-commerce marketplace web application, covering end-to-end functional and regression testing.",
+			"location": "Remote",
+			"company": {
+				"name": "Hubba",
+				"description": "A wholesale B2B e-commerce marketplace connecting brands and retailers."
+			}
+		},
+		{
+			"id": 4,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for a Health & Wellness Marketplace across mobile and web platforms, ensuring a reliable and accessible user experience.",
+			"location": "Remote",
+			"company": {
+				"name": "PC Health Shop",
+				"description": "A health and wellness marketplace offering products and services across mobile and web platforms."
+			}
+		},
+		{
+			"id": 5,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for The Body Coach fitness mobile application, covering functional, regression, and usability testing.",
+			"location": "Remote",
+			"company": {
+				"name": "The Body Coach",
+				"description": "A fitness and nutrition mobile application offering workout plans and healthy eating guidance."
+			}
+		},
+		{
 			"id": 6,
 			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for a financial services platform built on Salesforce, ensuring accuracy and reliability of fintech workflows and integrations.",
+			"location": "Remote",
+			"company": {
+				"name": "Beyond Finance",
+				"description": "A financial services platform helping consumers manage and resolve debt through structured financial programs."
+			}
+		},
+		{
+			"id": 7,
+			"title": "QA Engineer",
+			"type": "Remote",
+			"description": "Quality assurance for a healthcare and employee benefits platform, covering functional, accessibility, and localization testing across web and mobile.",
+			"location": "Remote",
+			"company": {
+				"name": "League",
+				"description": "A digital health platform powering personalized healthcare and employee benefits experiences across web and mobile."
+			}
+		},
+		{
+			"id": 8,
+			"title": "QA Engineer",
 			"type": "Full-Time",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description": "Designed, documented, and executed test plans, test cases, and test scenarios across the full SDLC. Built and maintained automated test suites using Cypress and Playwright (TypeScript). Designed and maintained CI/CD workflows via Jenkins and GitHub Actions. Supported deployment processes through Spinnaker pipelines. Collaborated with development, product, and design teams on user stories and acceptance criteria. Managed release processes and supported production deployments.",
 			"location": "Belgrade, Serbia",
 			"company": {
 				"name": "Zendesk",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+				"description": "A customer service and engagement platform providing SaaS solutions for support, sales, and customer experience management."
 			}
 		}
 	]
