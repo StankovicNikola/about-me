@@ -17,11 +17,11 @@ const ProjectListings = ({ isHome = false }) => {
 
 	useEffect(() => {
 		const fetchProjects = async () => {
-			const apiUrl = isHome ? "/api/projects?_limit=3" : "/api/projects";
+			const apiUrl = "/projects.json";
 			try {
 				const res = await fetch(apiUrl);
 				const data = await res.json();
-				setProjectData(data);
+				setProjectData(isHome ? data.slice(0, 3) : data);
 			} catch (error) {
 				console.error("Error fetching projects:", error);
 			} finally {
